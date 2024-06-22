@@ -1,5 +1,55 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* style.css */
+
+/* Center-align the header text */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey; /* Customize the background color as desired */
+  display: inline-block;
+  text-align: center;
+}
+
+/* Center-align the navigation bar */
+nav {
+  text-align: center;
+}
+
+/* Style the image caption */
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Style the text block within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 10px auto; /* Center the paragraphs with margin auto */
+  text-align: center;
+}
+
+/* Float the #details section divs to the left */
+#details div {
+  float: left;
+  width: 25%; /* Ensure they occupy 25% of the width */
+  text-align: center;
+  background-color: lightgrey; /* Customize the background color */
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Clear floats after the details section */
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
 }
